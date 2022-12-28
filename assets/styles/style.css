@@ -19,52 +19,54 @@
   display: flex;
 }
 
-.row {
+.brown {
   border: 1px solid grey;
   padding: 25px;
   background-color: brown;
 }
 
-.col {
+.white {
   border: 1px solid grey;
   padding: 25px;
   background-color: white;
 }
 
-.col:hover {
-    background-color: black;
-}
-
-.row:hover {
-    background-color: green;
-}
-
 .container2 {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 25px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
 }
 
 .btn1 {
-    border: none;
-    background-color: green;
-    font-size: 18px;
-    color: white;
-    border-radius: 3px;
-    padding: 5px 30px;
+  border: none;
+  background-color: green;
+  font-size: 18px;
+  color: white;
+  border-radius: 3px;
+  padding: 18px 30px;
 }
 
 .btn2 {
-    border: none;
-    background-color: red;
-    font-size: 18px;
-    color: white;
-    border-radius: 3px;
-    padding: 5px 30px;
+  border: none;
+  background-color: red;
+  font-size: 18px;
+  color: white;
+  border-radius: 3px;
+  padding: 18px 30px;
 }
 
-.result {
+.alerterror {
   font-size: 18px;
   font-weight: bold;
   font-style: italic;
+  color: red;
+  text-align: center;
+}
+
+.alert {
+  font-size: 18px;
+  font-weight: bold;
+  font-style: italic;
+  color: green;
+  text-align: center;
 }
